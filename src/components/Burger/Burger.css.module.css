@@ -9,31 +9,24 @@
 }
 
 
-@media (min-width: 1000px) {
+@media (max-width: 3000px) {
    .Burger {
        width: 500px;
-       height: 600px;
+       height: 400px;
    }
 }
 
-@media (min-width: 500px) {
+@media (max-width: 1000px) {
     .Burger {
-        width: 350px;
-        height: 400px;
+        width: 400px;
+        height: 300px;
     }
 }
 
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
     .Burger {
         width: 300px;
-        height: 400px;
-    }
-}
-
-@media (min-width: 400px) {
-    .Burger {
-        width: 300px;
-        height: 400px;
+        height: 200px;
     }
 }
